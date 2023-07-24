@@ -1,0 +1,43 @@
+*,
+*:before *:after {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  height: 100%;
+  font-size: 50px;
+  padding: 1rem 1rem;
+
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+body {
+  background-color: rgb(var(--red), var(--green), var(--blue));
+  margin: 0;
+}
+
+#hex-color {
+  position: absolute;
+  right: 20px;
+}
+
+.colorInput {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+#red {
+  accent-color: red;
+}
+
+#green {
+  accent-color: green;
+}
+
+#blue {
+  accent-color: blue;
+}

@@ -1,0 +1,46 @@
+*,
+*:before *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  line-height: 1.6;
+  background-color: LightGray;
+  margin: 20px;
+}
+
+.contact-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+  padding: 50px;
+  margin: 8px;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+}
+
+.articleContainer img.imgBox {
+  border: solid black;
+  border-radius: 100%;
+  border-width: 3px;
+}
+
+.connectBtn {
+  background-color: red;
+}
+
+.XBtn {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 50%;
+  border-width: 3px;
+  background-color: yellow;
+}
